@@ -13,10 +13,10 @@ def dead(why):
 
 def start():
 
-	Your_HP = 20
-	Your_Ammo = 20
-	HP_Scan = 2
-	your_stats = [Your_HP, Your_Ammo, HP_Scan]
+	Your_Ammo = 20 
+	Your_HP = 20 
+	HP_Scan = 20
+	your_stats = [Your_Ammo, Your_HP, HP_Scan]
 
 	print "You enter a dark, dingy room"
 	print "You stub your toe and look downward"
@@ -34,10 +34,8 @@ def start():
 
 		red_one(your_stats, initial_monster_HP)
 		
-	else:
-		print "What the fuck dude"
 
-	if "blue" in start_choice or "Blue" in start_choice:
+	elif "blue" in start_choice or "Blue" in start_choice:
 
 		initial_monster_HP = 2
 
@@ -49,6 +47,9 @@ def start():
 
 
 def red_one(your_stats, initial_monster_HP):
+
+	print your_stats
+
 
 	print "----red_one STARTS HERE-----"
 
@@ -181,9 +182,6 @@ start()
 
 
 #def blue_one(your_stats, initial_monster_HP):
-#	print "blue_one stars here!"
-#	
-#	if your_stats = initial
 	
 
 #def blue_two():
