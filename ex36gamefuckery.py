@@ -1,6 +1,6 @@
 from sys import exit
 
-
+#this is me testing a change via git
 
 # need to figure out what to do once ammo and health is below zero
 
@@ -180,10 +180,10 @@ start()
 #def red_two(Your_HP, Your_Ammo, HP_Scan):
 
 
-def blue_one(your_stats, initial_monster_HP):
-	print "blue_one stars here!"
-	
-	if your_stats = initial
+#def blue_one(your_stats, initial_monster_HP):
+#	print "blue_one stars here!"
+#	
+#	if your_stats = initial
 	
 
 #def blue_two():
