@@ -1,5 +1,7 @@
 from sys import exit
 
+#playing around with sourcetree and stuff
+
 def dead(why):
 	print why
 	exit(0)
