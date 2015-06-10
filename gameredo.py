@@ -1,7 +1,6 @@
 from sys import exit
 
-#playing around with sourcetree and stuff
-#adding more
+#replacting dis stuff
 
 def dead(why):
 	print why
