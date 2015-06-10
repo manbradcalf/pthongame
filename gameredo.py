@@ -2,6 +2,8 @@ from sys import exit
 
 #replacting dis stuff
 
+#now I will begin work on global_dicts
+
 def dead(why):
 	print why
 	exit(0)
